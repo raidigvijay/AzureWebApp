@@ -23,7 +23,7 @@ def contact():
         'contact.html',
         title='Contact',
         year=datetime.now().year,
-        message='Your contact page.'
+        message='Your contact page.---Modified'
     )
 
 @app.route('/about')
